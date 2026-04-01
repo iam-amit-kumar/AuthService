@@ -9,7 +9,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.springBoot.entities.UserInfo;
 
-@JsonNaming(PropertyNamingStrategies.SnakeCaseStrategy.class) //Not working need to check
+@JsonNaming(PropertyNamingStrategies.SnakeCaseStrategy.class)
 @Data
 //@Builder
 //@AllArgsConstructor
