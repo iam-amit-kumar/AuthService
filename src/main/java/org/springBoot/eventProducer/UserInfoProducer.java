@@ -14,7 +14,7 @@ import org.springframework.stereotype.Service;
 public class UserInfoProducer {
     private final KafkaTemplate<String, UserInfoDto> kafkaTemplate;
 
-    @Value("${spring.kafka.topic-json.name}")
+    @Value("${spring.kafka.topic.name}")
     private String TOPIC_NAME;
 
     @Autowired
